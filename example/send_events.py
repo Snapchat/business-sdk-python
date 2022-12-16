@@ -1,7 +1,6 @@
 import time
 from snap_business_sdk.public.conversion_api import ConversionApi
 from snap_business_sdk.public.conversion_event import ConversionEvent
-import asyncio
 
 # Configure Bearer authorization (JWT): bearerAuth
 access_token = 'TOKEN_WITHOUT_BEARER_PREFIX'

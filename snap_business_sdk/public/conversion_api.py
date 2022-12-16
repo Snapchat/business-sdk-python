@@ -100,7 +100,7 @@ class ConversionApi(object):
         )
 
     def send_test_event(self, raw_event):
-        self.send_test_events([raw_event])
+        return self.send_test_events([raw_event])
 
     def send_test_events(self, raw_events):
         if raw_events is None:
